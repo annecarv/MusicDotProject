@@ -19,8 +19,9 @@ figure {
     border: 1px solid lightgrey;
 
     margin:30px;
-    padding:15px;
+    padding-left: 15px;
 }
+
 figcaption {
     margin-top:10px;
 }
@@ -35,6 +36,6 @@ figcaption {
     width: 275px;
     float: right;
 }
-.figure-img {
-    width: auto;
+figure img {
+    width: 100%;
 }
