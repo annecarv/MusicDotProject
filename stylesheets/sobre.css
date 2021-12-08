@@ -5,11 +5,11 @@ body {
     margin-left:auto;
 	margin-right:auto;
 }
-h1 {
+.titulo {
     background-color: #E1EDF2;
     padding: 10px;
 }
-h2 {
+.subtitulo {
     border-bottom: 2px	solid black;
 }
 figure {
@@ -38,4 +38,26 @@ figcaption {
 }
 figure img {
     width: 100%;
+}
+.contato__subtitulo {
+    display: inline;
+}
+.contato__secao {
+    display:inline-block;
+    vertical-align: top;
+    margin-left: 16px;
+}
+.contato__secao-telefone{
+    margin-left: 32px;
+}
+.contato__info{
+    margin: 16px 0 24px;
+    padding-left: 32px;
+}
+.contato__info-subtitulo,
+.contato__info-descricao {
+    display:inline;
+}
+.contato__info-descricao {
+    margin-left: 10px;
 }
